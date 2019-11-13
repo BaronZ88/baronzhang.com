@@ -42,7 +42,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -122,9 +122,10 @@ google_analytics: UA-91622756-1
 # Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: 
+  # repo: 
     # github: git@github.com:BaronZ88/baronz88.github.io.git
-    hexo: git@47.103.142.22:/home/git/hexo.git,master
+    # hexo: git@47.103.142.22:/home/git/hexo.git,master
+  repo: git@47.103.142.22:/home/git/hexo.git,master
   branch: master
 
 # hexo sitemap网站地图
